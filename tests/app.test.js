@@ -35,3 +35,11 @@ describe('Unknown routes', () => {
     expect(response.status).toBe(404);
   });
 });
+
+describe('Response headers', () => {
+  it('serves JSON on the root route', async () => {
+    const response = await request(app).get('/');
+
+    expect(response.headers['content-type']).toMatch(/json/);
+  });
+});
