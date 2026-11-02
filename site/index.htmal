@@ -16,7 +16,7 @@
     </style>
   </head>
   <body>
-    <h1>Hello from Netlify!</h1>
+    <h1>Hello from render!</h1>
     <p>This is my first publicly deployed website.</p>
     <p>I deployed it by publishing a folder of static files.</p>
   </body>
