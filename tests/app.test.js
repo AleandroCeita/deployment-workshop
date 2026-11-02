@@ -12,7 +12,7 @@ describe('GET /', () => {
     });
   });
 });
-
+/*tests Aleandro*/
 describe('GET /health', () => {
   it('reports that the API is healthy', async () => {
     const response = await request(app).get('/health');
